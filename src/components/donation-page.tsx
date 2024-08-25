@@ -1,30 +1,27 @@
-/**
- * v0 by Vercel.
- * @see https://v0.dev/t/8Gq6iQIBzdx
- * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
- */
+/
 import Link from "next/link"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Label } from "@/components/ui/label"
 import { Input } from "@/components/ui/input"
 import { DropdownMenu, DropdownMenuTrigger, DropdownMenuContent, DropdownMenuItem } from "@/components/ui/dropdown-menu"
+import { JSX, SVGProps } from "react"
 
-export default function Component() {
+export function donationpage() {
   return (
     <div className="flex flex-col items-center justify-center min-h-[100dvh] bg-[#f0f8ff] px-4 py-12 sm:px-6 lg:px-8">
       <div className="w-full max-w-2xl space-y-8">
         <div className="space-y-4 text-center">
           <div className="flex items-center justify-center">
-            <img
-              src="/placeholder.svg"
-              alt="Heartfulness Logo"
+            <img 
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShla20LZhaRhUVHmMwWuTwD7_VSF_n5COQtg&s"
+              alt="Heartfulness Logo cartoon"
               width={48}
               height={48}
               className="mr-2"
               style={{ aspectRatio: "48/48", objectFit: "cover" }}
             />
-            <h1 className="text-3xl font-bold text-[#4CAF50]">Heartfulness</h1>
+            <h1 className="text-3xl font-bold text-[#4CAF50]"><><h1>Heartfulness</h1>
           </div>
           <p className="text-muted-foreground md:text-xl">
             Your donation will make a real difference in the lives of those we serve.
