@@ -1,4 +1,4 @@
-/
+
 import Link from "next/link"
 import { Card, CardHeader, CardTitle, CardDescription, CardContent, CardFooter } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
@@ -15,13 +15,13 @@ export function donationpage() {
           <div className="flex items-center justify-center">
             <img 
               src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShla20LZhaRhUVHmMwWuTwD7_VSF_n5COQtg&s"
-              alt="Heartfulness Logo cartoon"
+              alt="Heartfulness Logo "
               width={48}
               height={48}
               className="mr-2"
               style={{ aspectRatio: "48/48", objectFit: "cover" }}
             />
-            <h1 className="text-3xl font-bold text-[#4CAF50]"><><h1>Heartfulness</h1>
+            <h1 className="text-3xl font-bold text-[#4CAF50]">Heartfulness</h1>
           </div>
           <p className="text-muted-foreground md:text-xl">
             Your donation will make a real difference in the lives of those we serve.
@@ -155,7 +155,6 @@ export function donationpage() {
     </div>
   )
 }
-
 function ChevronDownIcon(props) {
   return (
     <svg
@@ -174,8 +173,6 @@ function ChevronDownIcon(props) {
     </svg>
   )
 }
-
-
 function CreditCardIcon(props) {
   return (
     <svg
@@ -195,8 +192,6 @@ function CreditCardIcon(props) {
     </svg>
   )
 }
-
-
 function FacebookIcon(props) {
   return (
     <svg
@@ -215,8 +210,6 @@ function FacebookIcon(props) {
     </svg>
   )
 }
-
-
 function InstagramIcon(props) {
   return (
     <svg
@@ -237,13 +230,11 @@ function InstagramIcon(props) {
     </svg>
   )
 }
-
-
 function LinkedinIcon(props) {
   return (
     <svg
       {...props}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns="https://www.linkedin.com/in/pratik-gajanan-pawar/"
       width="24"
       height="24"
       viewBox="0 0 24 24"
@@ -259,8 +250,6 @@ function LinkedinIcon(props) {
     </svg>
   )
 }
-
-
 function MailIcon(props) {
   return (
     <svg
@@ -280,13 +269,11 @@ function MailIcon(props) {
     </svg>
   )
 }
-
-
 function TwitterIcon(props) {
   return (
     <svg
       {...props}
-      xmlns="http://www.w3.org/2000/svg"
+      xmlns=""
       width="24"
       height="24"
       viewBox="0 0 24 24"
